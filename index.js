@@ -46,6 +46,9 @@ class Paypal {
    * @param {Paypal~pdtCallback} cb - The callback that handles the result.
    */
   pdt(txId, cb) {
+    if (!txId) {
+      throw new Error('Transaction ID not provided')
+    }
     request.post(this.url, {form: {
       'cmd': '_notify-synch',
       'at': this.token,
