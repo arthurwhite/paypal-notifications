@@ -1,6 +1,6 @@
 {
   "name": "paypal-notifications",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "PayPal client for IPN and PDT notifications",
   "main": "index.js",
   "keywords": [
