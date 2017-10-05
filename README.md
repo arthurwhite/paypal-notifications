@@ -13,7 +13,7 @@ PayPal client for IPN (Instant Payment Notification) and PDT (Payment Data Trans
 2. Import it in your code:
 
     ```js
-    const paypal = require('paypal-notifications')
+    const Paypal = require('paypal-notifications')
     ```
 
 ## Setup
